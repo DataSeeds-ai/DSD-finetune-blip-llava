@@ -10,7 +10,7 @@ The core training logic and BLIP workings are detailed in the [LAVIS documentati
 
 To start training a model using the Gurushots Technical dataset configuration:
 
-1.  Navigate to the project root directory.
+1.  Navigate to the lavis project root directory.
 2.  Execute the training script:
 
     ```bash
