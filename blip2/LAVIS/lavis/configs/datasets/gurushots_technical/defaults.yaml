@@ -1,0 +1,20 @@
+datasets:
+  gurushots_technical: # name of the dataset builder
+    # dataset_card: dataset_card/gurushots_technical.md # Optional: path to the dataset card 
+    data_type: images # [images|videos|features]
+
+    build_info:
+      # Define annotation paths structure, actual paths will be overridden by runtime config
+      annotations:
+        train:
+          url: null # Provided in runtime config
+          storage: null # Provided in runtime config
+        val:
+          url: null # Provided in runtime config
+          storage: null # Provided in runtime config
+        # test:
+        #   url: null 
+        #   storage: null
+      # Define images path structure, actual path will be overridden by runtime config
+      images:
+        storage: null # Provided in runtime config

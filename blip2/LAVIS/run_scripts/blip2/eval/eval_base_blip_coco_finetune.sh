@@ -1,0 +1,1 @@
+python -m torch.distributed.run --nproc_per_node=1 train.py --cfg-path lavis/projects/blip2/train/gurushots_technical_ft_base.yaml
