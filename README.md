@@ -1,21 +1,33 @@
-# BLIP2 Training Setup
+# Peer-Ranked Precision
 
-## Prerequisites
+This repository contains the code, configurations, and training scripts associated with our white paper, "Peer-Ranked Precision: Creating a Foundational Dataset for Fine-Tuning Vision Models from GuruShots' Annotated Imagery".
 
-1.  **Clone Long_CLIP:** Ensure that the [Long_CLIP](https://github.com/beichenzbc/Long-CLIP) repository is cloned *inside* the `blip2/` directory. Also rename it to `Long_CLIP`
+Our work utilizes and adapts components from two main projects:
+*   **LLaVA-NeXT**: For details on our LLaVA-NeXT setup, experiments, and scripts, please see the [LLaVA-NeXT Project README](./LLaVA-NeXT/README.md).
+*   **BLIP2**: For details on our BLIP2 setup, training configurations, and scripts, please see the [BLIP2 Project README](./blip2/README.md).
 
-## Training
+## Overview
+The development of modern Artificial Intelligence (AI) models, particularly diffusion-based models employed in computer vision and image generation tasks, is undergoing a paradigmatic shift in development methodologies. Traditionally dominated by a "Model Centric" approach, wherein performance gains were primarily pursued through increasingly complex model architectures and hyperparameter optimization, the field is now recognizing a more nuanced "Data-Centric" approach. This emergent framework foregrounds the quality, structure, and relevance of training data as the principal driver of model performance.
 
-The core training logic and BLIP workings are detailed in the [LAVIS documentation](https://github.com/salesforce/LAVIS).
+To operationalize this paradigm shift, we introduce the GuruShots sample dataset (the "GSD"), comprised of approximately 10,610 high-quality human peer-ranked photography images accompanied by extensive multi-tier annotations. The GSD is a foundational computer vision dataset designed to usher in a new standard for commercial image datasets. Representing a small fraction of GuruShots' 100 million-plus image catalogue, the GSD provides scalable foundation necessary for robust commercial and multimodal AI development.
 
-To start training a model using the Gurushots Technical dataset configuration:
+This repository makes publicly available the code and trained models used in our evaluation, as documented in the white paper. This allows users to reproduce experiments and utilize our findings.
 
-1.  Navigate to the lavis project root directory.
-2.  Execute the training script:
+## Repository Structure
+- `/LLaVA-NeXT`: Contains code, scripts, and configurations related to the LLaVA-NeXT models used in our research. This includes the forked LLaVA-NeXT project.
+- `/blip2`: Contains code, scripts, and configurations related to the BLIP2 models used in our research.
 
-    ```bash
-    bash run_scripts/blip2/train/train_gurushots_technical.sh
-    ```
+## Getting Started
+[Optional: High-level instructions on how to set up the environment if there's a common setup for both, or simply refer to the sub-project READMEs for their specific setup instructions.]
 
-The specific training configuration can be found in:
-`blip2/LAVIS/lavis/projects/blip2/train/gurushots_technical_ft.yaml`
+## Citation
+If you find this work useful, please consider citing our white paper:
+```bibtex
+@article{yourname_year_title,
+  title={Peer-Ranked Precision: Creating a Foundational Dataset for Fine-Tuning Vision Models from GuruShots' Annotated Imagery},
+  author={Sajjad Abdoli, Freeman Lewin, Gediminas Vasiliauskas, and Fabian Schonholz},
+  journal={[add]},
+  year={[2025]},
+  url={[link]}
+}
+```
