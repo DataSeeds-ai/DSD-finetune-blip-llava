@@ -17,13 +17,10 @@ This repository makes publicly available the code and trained models used in our
 - `/LLaVA-NeXT`: Contains code, scripts, and configurations related to the LLaVA-NeXT models used in our research. This includes the forked LLaVA-NeXT project.
 - `/blip2`: Contains code, scripts, and configurations related to the BLIP2 models used in our research.
 
-## Getting Started
-[Optional: High-level instructions on how to set up the environment if there's a common setup for both, or simply refer to the sub-project READMEs for their specific setup instructions.]
-
 ## Citation
 If you find this work useful, please consider citing our white paper:
 ```bibtex
-@article{yourname_year_title,
+@article{[TBD],
   title={Peer-Ranked Precision: Creating a Foundational Dataset for Fine-Tuning Vision Models from GuruShots' Annotated Imagery},
   author={Sajjad Abdoli, Freeman Lewin, Gediminas Vasiliauskas, and Fabian Schonholz},
   journal={[add]},
