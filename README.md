@@ -1,6 +1,6 @@
 # Peer-Ranked Precision
 
-This repository contains the code, configurations, and training scripts associated with our white paper, "Peer-Ranked Precision: Creating a Foundational Dataset for Fine-Tuning Vision Models from GuruShots' Annotated Imagery".
+This repository contains the code, configurations, and training scripts associated with our white paper, "Peer-Ranked Precision: Creating a Foundational Dataset for Fine-Tuning Vision Models from DataSeeds’ Annotated Imagery".
 
 Our work utilizes and adapts components from two main projects:
 *   **LLaVA-NeXT**: For details on our LLaVA-NeXT setup, experiments, and scripts, please see the [LLaVA-NeXT Project README](./LLaVA-NeXT/README.md).
