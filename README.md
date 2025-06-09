@@ -20,12 +20,13 @@ This repository makes publicly available the code and trained models used in our
 ## Citation
 If you find this work useful, please consider citing our white paper:
 ```bibtex
-@article{[TBD],
-  title={Peer-Ranked Precision: Creating a Foundational Dataset for Fine-Tuning Vision Models from DataSeeds' Annotated Imagery},
-  author={Sajjad Abdoli, Freeman Lewin, Gediminas Vasiliauskas, and Fabian Schonholz},
-  archivePrefix={arXiv},
-  primaryClass={cs.CV}
-  year={[2025]},
-  url={[https://arxiv.org/abs/2506.05673](https://arxiv.org/abs/2506.05673)}
+@misc{abdoli2025peerranked,
+    title={Peer-Ranked Precision: Creating a Foundational Dataset for Fine-Tuning Vision Models from GuruShots' Annotated Imagery}, 
+    author={Sajjad Abdoli and Freeman Lewin and Gediminas Vasiliauskas and Fabian Schonholz},
+    year={2025},
+    eprint={2506.05673},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV},
+    url={https://arxiv.org/abs/2506.05673}
 }
 ```
